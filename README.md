@@ -9,7 +9,7 @@ Twice daily estimates (individual observations) were used. The code expects the 
 ## Random realization of the background
 A random realization of the background was used for statistical analysis and for estimating the foreground, and is needed for the plotting code to work. 
 
-To generate a random realization use: `./code/comp/ou-realization.py`
+To generate a random realization use: `./code/comp/ou-realization.py`.
 
 ## Space/time analysis
 Having obtained the data and generated a random realization of the background, the space/time analysis is computed in:
@@ -17,11 +17,14 @@ Having obtained the data and generated a random realization of the background, t
 - `./code/comp/analysis-observations-raw.py`
 - `./code/comp/analysis-ou.py`
 
+## Subannual variability
+The subannual variability in Fig. 1 is pre-computed in: `./code/comp/subannual-variability-grid-space.py`.
+
 ## Statistical analysis
 The plotting code loads pre-computed p-values, computed in:
 - `./code/comp/bootstrap-grid-space.py`
 - `./code/comp/bootstrap-spectral-space.py`
 
 ## Plotting code
-The code for reproducing the figures is provided in Jupyter Notebooks, located in `./code/plot`. 
+The code for reproducing the figures is provided in Jupyter Notebooks, located in `./code/plot`.
 
