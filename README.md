@@ -25,6 +25,11 @@ The plotting code loads pre-computed p-values, computed in:
 - `./code/comp/bootstrap-grid-space.py`
 - `./code/comp/bootstrap-spectral-space.py`
 
+## Spectral filters
+Spectral filters are applied in:
+- `./code/comp/apply-filters.py`
+- `./code/comp/apply-filters-background.py`
+
 ## Plotting code
 The code for reproducing the figures is provided in Jupyter Notebooks, located in `./code/plot`.
 
