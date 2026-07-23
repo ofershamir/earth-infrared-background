@@ -1,5 +1,11 @@
 # Earth's Infrared Background
-Code for reproducing the analysis and figures in Shamir and Gerber (20??).
+Code for reproducing the analysis and figures in Shamir and Gerber (2026).
+
+Preprint Available on ArXiv: 
+[![arXiv](https://img.shields.io/badge/arXiv-2503.05288-b31b1b.svg)](https://arxiv.org/abs/2503.05288)
+
+Geophysical Research Letters:
+[![DOI](https://img.shields.io/badge/DOI-10.1029/2026GL123697-blue.svg)](https://doi.org/10.1029/2026GL123697)
 
 ## Data
 Interpolated Outgoing Longwave Radiation data provided by the NOAA PSL, Boulder, Colorado, USA, was sourced from their website at https://psl.noaa.gov/data/gridded/data.olrcdr.interp.html.
